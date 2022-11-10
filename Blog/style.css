@@ -1,0 +1,27 @@
+  .glide__slide{
+     display: flex;
+     justify-content: center;
+  }
+  .glide__slide img{
+     width: 50%;
+  }
+  .glide__arrow {
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #f25252;
+    border-radius: 50px;
+    position: absolute;
+  }
+  .glide__arrow i {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .glide__arrow:first-child {
+    left: 12px;
+    top: 50%;
+  }
+  .glide__arrow:last-child {
+    right: 12px;
+    top: 50%;
+  }
